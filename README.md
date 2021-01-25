@@ -16,4 +16,4 @@ Grupa studencka: WEL18DE1S1
 
 Wraz ze wzrostem temperatury prędkość obrotowa silnika rośnie.
 ...
-Poprzez płytkę arduino można sterować napięciem w zakresie 0-5V. Przy pomocy tranzystora zakres zwiększa się do 9V oraz pozwala na regulację napięcia PWM poprzez modulację szerokości impulsów. Mozna zatem wywnioskować, że tranzystor pozwala na sterowanie napięciem i zwiększenie zakresu. Oprócz tego przepuszcza on większe prądy potrzebne dla silnika, które nie przepuszcza płytka arudino.
+Poprzez płytkę arduino można sterować napięciem w zakresie 0-5V. Przy pomocy tranzystora zakres zwiększa się do 9V oraz pozwala na regulację napięcia PWM poprzez modulację szerokości impulsów. Mozna zatem wywnioskować, że tranzystor pozwala na sterowanie prędkością i zwiększenie zakresu. Oprócz tego przepuszcza on większe prądy potrzebne dla silnika, które nie przepuszcza płytka arudino.
