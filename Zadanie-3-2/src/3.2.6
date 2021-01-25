@@ -71,7 +71,11 @@ void readTemperature(void){
 void FAN(void){
 if(temperature>40)
 {
-  analogWrite(predkosc, 255);
+  float duty = map(temperature,40,127,10,255);
+  analogWrite(predkosc, duty);
+  Serial.println(duty);
+
+  Serial.println(temperature);
 }
   else analogWrite(predkosc, 0);
 }
